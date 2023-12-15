@@ -1,9 +1,5 @@
 import Hero from 'components/hero'
-const props = {
-  title: 'CUBE',
-  subtitle: 'アウトプットしていくサイト',
-  imageOn: true
-}
+const props = { title: 'Blog', subtitle: 'Recent Posts' }
 const Home = () => {
   return (
     <>
