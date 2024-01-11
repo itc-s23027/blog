@@ -1,5 +1,5 @@
 import Hero from 'components/hero'
-const props = {
+const props ={
   title: 'CUBE',
   subtitle: 'アウトプットしていくサイト',
   imageOn: true

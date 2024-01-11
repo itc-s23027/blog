@@ -1,9 +1,13 @@
-const Hero = ({ title, subtitle, imageOn = false }) => (
-  <div>
-    <h1>{title}</h1>
-    <p>{subtitle}</p>
-    {imageOn && <figure> [image] </figure>}
-  </div>
+import Header from 'components/header'
+import Footer from 'components/footer'
+
+const Layout = ({ children }) => (
+  <>
+    <Header />
+    <main>{children}</main>
+    <Footer />
+  </>
 )
 
-export default Hero
+export default Layout
+

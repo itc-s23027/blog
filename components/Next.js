@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
-export default function Logo() {
+export default function Test() {
   return (
     <Link href="/">
-      <a>CUBE</a>
+      <a>トップページを開く</a>
     </Link>
   )
 }
