@@ -1,5 +1,6 @@
-import styles from 'styles/contact.module.css'
 import Social from 'components/social'
+import styles from 'styles/contact.module.css'
+
 const Contact = () => {
   return (
     <div className={styles.stack}>

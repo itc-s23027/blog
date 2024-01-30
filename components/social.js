@@ -11,7 +11,7 @@ const Social = ({ iconSize = 'initial' }) => {
   return (
     <ul className={styles.list} style={{ '--icon-size': iconSize }}>
       <li>
-        <a href='https://twitter.com/'>
+        <a href='https://twitter.css'>
           <FontAwesomeIcon icon={faTwitter} />
           <span className='sr-only'>Twitter</span>
         </a>
@@ -23,7 +23,7 @@ const Social = ({ iconSize = 'initial' }) => {
         </a>
       </li>
       <li>
-        <a href='https://www.github.com/'>
+        <a href='https://github.com/'>
           <FontAwesomeIcon icon={faGithub} />
           <span className='sr-only'>Github</span>
         </a>

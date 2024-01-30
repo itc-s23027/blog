@@ -1,12 +1,6 @@
-import styles from 'styles/contact.module.css'
-import Social from 'components/social'
-const Contact = () => {
-  return (
-    <div className={styles.stack}>
-      <h3 className={styles.heading}>Contact</h3>
-      <Social iconSize='30px' />
-      <address>cube@web.mail.address</address>
-    </div>
-  )
+import styles from 'styles/container.module.css'
+
+const Container = ({ children, large = false }) => {
+  return <div className={styles.default}>{children}</div>
 }
-export default Contact
+export default Container
